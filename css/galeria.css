@@ -1,0 +1,7 @@
+div.infiniteCarousel {
+    margin: 100px auto 0 auto;
+    -moz-box-shadow: 0px 0px 10px #333;
+    -webkit-box-shadow:  0px 0px 10px #333;
+    box-shadow:  0px 0px 10px #333;
+    clear:right;
+}
