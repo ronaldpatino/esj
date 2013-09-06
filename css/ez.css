@@ -10,7 +10,8 @@
  * we reset this value in the next rule so content is left aligned.
  */
 
-body {text-align: center;}
+body {text-align: center; background-color: #E4DED0;
+}
 
 /*
  * This wrapper, first child of body, is used to wrap "ez-css" modules.
@@ -231,7 +232,7 @@ body {text-align: center;}
 #article {
     width: 70%;
     padding:15px 0 15px 15px;
-    border-left: 1px solid #555;
+    border-left: 0px solid #555;
 }
 
 /*
@@ -240,7 +241,7 @@ body {text-align: center;}
 
 #aside {
     padding: 0;
-    border-right: 1px solid #555;
+    border-right: 0px solid #555;
 }
 
 /**********************************************************************************
@@ -329,7 +330,6 @@ body {text-align: center;}
 
 #article {
     float: right;
-    margin-left: -1px;
     border-left: 1px solid #555555;
     padding: 0;
     width: 71%;

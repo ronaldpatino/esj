@@ -13,7 +13,7 @@
         {
             var defaults =
             {
-                transitionSpeed: 800,
+                transitionSpeed: 200,
                 displayTime: 6000,
                 displayProgressRing: true,
                 progressRingColorOpacity: '0,0,0,.5',

@@ -39,3 +39,52 @@
 #menu .active{
     background-color:#7A991A !important;
 }
+
+
+
+/**/
+
+
+#menuactividades
+{
+    width: 100%;
+    text-align: center;
+    background-color: #E4DFCB;
+    border-top: 1px solid #333;
+
+    
+}
+
+#menuactividades ul
+{
+    width: 100%;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+#menuactividades li
+{
+    float:left;
+}
+#menuactividades a:link,#menuactividades a:visited
+{
+    display:block;
+    font-weight:normal;
+    color: #6F811E;
+    background-color:#E4DFCB;
+    text-align:center;
+    padding: 10px ;
+    text-decoration:none;
+    text-transform:uppercase;
+    	font-weight: bold;
+}
+#menuactividades a:hover,#menuactividades a:active
+{
+    background-color:#BFBBAE;
+}
+
+#menuactividades .active{
+    background-color:#BFBBAE !important;
+}
