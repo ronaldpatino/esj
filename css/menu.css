@@ -88,3 +88,5 @@
 #menuactividades .active{
     background-color:#BFBBAE !important;
 }
+
+#menuactividades img{vertical-align:middle;}
