@@ -180,9 +180,8 @@ body {text-align: center;}
 
 /**/
 .centered {
-    margin-left:auto;
-    margin-right:auto;
-    width:90%;
+
+        margin: 5px auto 0 auto;
 }
 
 
