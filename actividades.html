@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>starter 2C: Two columns with header and footer, sidebar on the rigtht hand side, main content comes first</title>
+    <link rel="stylesheet" type="text/css" href="css/estancia.css">
+</head>
+<body>
+<!-- ez-start-2C -->
+<div id="wrapper">
+    <div id="body">
+        <div id="article">
+
+
+            <div class="ez-wr">
+                <div class="ez-box" id="menu">
+                    <ul >
+<li><a href="/">INICIO</a></li>
+<li><a href="eventos.html">EVENTOS</a></li>
+<li><a href="hospedaje.html">HOSPEDAJE</a></li>
+<li><a class="active" href="actividades.html">ACTIVIDADES</a></li>
+<li><a href="reservaciones.html">RESERVACIONES</a></li>
+<li><a href="galeria.html">GALERIA</a></li>
+<li><a href="quienes-somos.html">QUIENES SOMOS</a></li>
+<li><a href="contactos.html">CONTACTO</a></li>
+
+                    </ul>
+                </div>
+                <div class="ez-box">
+                    <div class="container">
+	                    <div id="scrolldiv">
+	                     	
+
+<h2>ACTIVIDADES</h2>
+	                     	
+<table cellspacing="10">
+	<tr>
+		<td valign="bottom" align="right" width="300">
+<h2>CABALGATA</h2><p>Ruta al Cabogana, a tan solo 10 minutos de la ciudad, disfrute de seis horas de cabalgata con dos estaciones, admire de la naturaleza el paramo de los Andes, cascadas y la belleza de la reserva ecol&oacute;gica del Cabogana en el curso superior de R&Iacute;o Amarillo</p>
+		</td>
+
+		<td valign="bottom" align="right">
+			<img src="img/cabalgata.png" alt="" />
+		</td>
+	</tr>
+	<tr>
+		<td valign="bottom" align="right" width="300">
+<h2>CANOPY</h2><p>Disfrute  de una actividad de aventura que consiste en cruzar en cables de un punto a otro, todo en el bosque, dotados con equipos de alta calidad y Guías Profesionales. </p>
+		</td>
+
+		<td valign="bottom" align="right">
+			<img src="img/canopy.png" alt="" />
+		</td>
+	</tr>
+	<tr>
+		<td valign="bottom" align="right" width="300">
+<h2>CICLISMO</h2><p>Disfrute la ruta al Cabogana, en medio de un hermoso paisaje rodeado de hermosas cascadas</p>
+		</td>
+
+		<td valign="bottom" align="right">
+			<img src="img/ciclismo.png" alt="" />
+		</td>
+	</tr>
+
+	<tr>
+		<td valign="bottom" align="right" width="300">
+<h2>FUTBOL</h2><p>Juega emocionantes partidos de F&uacute;tbol en nuestra cancha en medio de la naturaleza</p>
+		</td>
+
+		<td valign="bottom" align="right">
+			<img src="img/futbol.png" alt="" />
+		</td>
+	</tr>
+	<tr>
+		<td valign="bottom" align="right" width="300">
+<h2>VOLEY</h2><p>Juega emocionantes partidos de Voley en nuestra cancha en medio de la naturaleza</p>
+		</td>
+
+		<td valign="bottom" align="right">
+			<img src="img/voley.png" alt="" />			
+		</td>
+	</tr>
+	<tr>
+		<td valign="bottom" align="right" width="300">
+<h2>RAPEL</h2><p>Desciende por el barranco en Estancia San Jos&eacute; y pon a prueba tu destreza, contamos con gu&iacute;as calificados y todo el equipo de seguridad  </p>
+		</td>
+
+		<td valign="bottom" align="right">
+			<img src="img/rapel.png" alt="" />			
+		</td>
+	</tr>	
+
+</table>
+	                    </div>                          
+                    </div>
+                </div>
+                <div class="ez-box">
+                <br>
+	                <div class="ez-box" id="menuactividades">
+	                    <ul>
+	                        <li >
+                                <a class="active" href="default.asp"><img src="img/iconos/cabalgata.png"> CABALGATA</a>
+                            </li>
+	                        <li><a href="news.asp"><img src="img/iconos/canopy.png"> CANOPY</a></li>
+	                        <li><a href="contact.asp"><img src="img/iconos/caminata.png"> CAMINATAS</a></li>
+	                        <li><a href="about.asp"><img src="img/iconos/ciclismo.png"> CICLISMO</a></li>
+	                        <li><a href="about.asp"><img src="img/iconos/futbol.png">FUTBOL</a></li>
+   	                        <li><a href="about.asp"><img src="img/iconos/voley.png">VOLEY</a></li>
+	                        <li><a href="about.asp"><img src="img/iconos/restaurant.png">RESTAURANT</a></li>
+
+	                    </ul>
+	                </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div id="aside">
+            <img src="img/bg-left.jpg" alt="">
+        </div>
+    </div>
+    <div id="footer">
+    PIE
+    </div>
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/slides.js"></script>
+<script>
+        $(function(){
+            $('#carousel').infiniteCarousel({
+                imagePath: 'img/gc/',
+                displayTime: 4000,
+           		autoPilot: true
+            });
+        });
+</script>
+</body>
+</html>

@@ -3,3 +3,22 @@
 @import url("fonts.css");
 @import url("galeria.css");
 
+
+.container{
+	
+	height: 590px;
+}
+
+
+#scrolldiv{
+	
+	overflow-y: auto; 
+	height:590px;
+	padding: 10px 60px 0 60px;
+	margin-top: 10px;
+}
+
+p{
+	
+	padding-bottom: 10px;
+}
