@@ -209,7 +209,7 @@ body {text-align: center; background-color: #E4DED0;
  * To set the width of the main wrapper
  */
 
-#wrapper {width: 1024px;}
+#wrapper {width: 1360px;}
 
 /*
  * You can use this wrapper for the faux-column technique
@@ -332,7 +332,8 @@ body {text-align: center;}
     float: right;
     border-left: 1px solid #555555;
     padding: 0;
-    width: 71%;
+    width: 73%;
+    height: 100%;
 }
 
 /*
